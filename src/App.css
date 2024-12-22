@@ -1,0 +1,106 @@
+#root {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+ 
+
+  
+}
+
+.calculadora{
+  padding: 10px; 
+  display: block;
+ 
+  width: 95%;
+  max-width: 400px;
+  max-height: 800px;
+
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+div{
+  background-color: pink;
+}
+
+button{
+
+
+  background-color: white;
+  font-size: 19px;
+
+}
+
+.wrapper{
+
+  width: 100%;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr ;
+
+ 
+}
+
+.cr  {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+
+}
+
+
+
+.cr button {
+
+  background-color: rgb(139, 237, 237);
+
+}
+
+.cr .operacion{
+
+  background-color: #97a198; 
+  color: white; 
+  border: none;
+ 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  
+  
+  
+
+}
+
+.pantalla{
+
+  margin-bottom: 20px;
+ 
+  width: 100%; 
+  
+}
+
+.pantalla input {
+  width: 100%; 
+  font-size: 24px;
+  text-align: right;
+  box-sizing: border-box; 
+}
+
+
+.operacion {
+  background-color: #97a198; 
+  color: white; 
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 1px ;
+  cursor: pointer;
+  border-radius: 4px;
+}
